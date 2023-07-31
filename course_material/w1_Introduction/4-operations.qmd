@@ -1,0 +1,105 @@
+# Basic Operations in R
+
+Arithmetic Operations: R supports a wide range of arithmetic operations for numerical data. Here are some commonly used arithmetic operators:
+
+1.  Addition: The addition operator (**`+`**) is used to add two or more values together. For example:
+
+```         
+RCopy code
+```
+
+`result <- 5 + 3`
+
+2.  Subtraction: The subtraction operator (**`-`**) is used to subtract one value from another. For example:
+
+```         
+RCopy code
+```
+
+`result <- 10 - 4`
+
+3.  Multiplication: The multiplication operator (**`*`**) is used to multiply two or more values. For example:
+
+```         
+RCopy code
+```
+
+`result <- 6 * 2`
+
+4.  Division: The division operator (**`/`**) is used to divide one value by another. For example:
+
+```         
+RCopy code
+```
+
+`result <- 12 / 3`
+
+5.  Exponentiation: The exponentiation operator (**`^`**) is used to raise a value to a power. For example:
+
+```         
+RCopy code
+```
+
+`result <- 2 ^ 3`
+
+Relational Operations: Relational operators are used to compare values and return logical values (**`TRUE`** or **`FALSE`**) based on the comparison. Here are the commonly used relational operators in R:
+
+1.  Equality: The equality operator (**`==`**) checks if two values are equal. For example:
+
+```         
+RCopy code
+```
+
+`result <- 5 == 3`
+
+2.  Inequality: The inequality operator (**`!=`**) checks if two values are not equal. For example:
+
+```         
+RCopy code
+```
+
+`result <- 5 != 3`
+
+3.  Greater Than: The greater than operator (**`>`**) checks if one value is greater than another. For example:
+
+```         
+RCopy code
+```
+
+`result <- 5 > 3`
+
+4.  Less Than: The less than operator (**`<`**) checks if one value is less than another. For example:
+
+```         
+RCopy code
+```
+
+`result <- 5 < 3`
+
+Logical Operations: Logical operators are used to perform logical operations on logical values (**`TRUE`** or **`FALSE`**). Here are the commonly used logical operators in R:
+
+1.  AND: The AND operator (**`&`**) returns **`TRUE`** if both the operands are **`TRUE`**, otherwise it returns **`FALSE`**. For example:
+
+```         
+RCopy code
+```
+
+`result <- TRUE & FALSE`
+
+2.  OR: The OR operator (**`|`**) returns **`TRUE`** if at least one of the operands is **`TRUE`**, otherwise it returns **`FALSE`**. For example:
+
+```         
+RCopy code
+```
+
+`result <- TRUE | FALSE`
+
+3.  NOT: The NOT operator (**`!`**) returns the opposite of a logical value. For example:
+
+```         
+RCopy code
+```
+
+`result <- !TRUE`
+
+Understanding and applying these basic operations in R is crucial for performing calculations, comparisons, and logical evaluations in data analysis and visualization tasks. Practice using these operators with different values to gain familiarity with their behavior and results.

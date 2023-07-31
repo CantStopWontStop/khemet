@@ -1,0 +1,121 @@
+---
+title: 'Basic Operations in R'
+
+execute: 
+  include: true
+---
+
+# Instructions
+
+In this assignment, you will apply your knowledge of basic operations and functions in R to solve various problems. Follow the instructions for each task and write your code accordingly. Make sure to run your code and verify that it produces the expected output.
+
+# Background Informations
+
+Team
+
+| Player  | Position | Points | Assists | Rebounds | Blocks |
+|---------|----------|--------|---------|----------|--------|
+| Newton  | Center   | 20     | 5       | 13       | 5      |
+| Seale   | Forward  | 15     | 4       | 8        | 2      |
+| Davis   | Forward  | 16     | 5       | 9        | 0      |
+| Hampton | Guard    | 32     | 7       | 5        | 1      |
+| Clark   | Guard    | 15     | 12      | 2        | 0      |
+
+: Oakland Panthers Strating Lineup Stats
+
+# Tasks
+
+1.  Arithmetic Operations - Calculate the following:
+
+    -   59 plus 83
+
+    -   112 minus 37
+
+    -   16 times 13
+
+    -   2048 divided by 32
+
+    -   8 cubed (or 8 to the 3rd power)
+
+    ```{r}
+
+    59 + 83
+    112 - 37
+    16 * 13
+    2048 / 32
+    8 ^ 3
+    ```
+
+2.  Assignment Operator - Make the same calculations and assign them to their respective variables:
+
+    -   add_num for the addition answer
+
+    -   sub_num for the subtraction answer
+
+    -   mult_num for the multiplication answer
+
+    -   div_num for the division answer
+
+    -   exp_num for the exponential answer
+
+    ```{r}
+
+    add_num  <- 59 + 83
+    sub_num  <- 112 - 37
+    mult_num <- 16 * 13
+    div_num  <- 2048 / 32
+    exp_num  <- 8 ^ 3
+    ```
+
+3.  Comparison Operators - Make the following comparisons:
+
+    -   Is add_num equal to 208?
+
+    -   Is add_num not equal to 208?
+
+    -   Is sub_num greater than add_num?
+
+    -   Is mult_num less than 208?
+
+    -   Is mult_num greater than or equal to 208?
+
+    -   Is exp_num less than or equal to 208?
+
+    ```{r}
+    add_num  == 208
+    add_num  != 208 
+    sub_num  >  add_num
+    mult_num < 208
+    mult_num >= 208
+    exp_num  <= 208
+    ```
+
+4.  Logical Operators - Use logical operators to make the following comparisons:
+
+    -   Are both 100 and 200 greater than add_num?
+
+    -   Is 100 or 200 greater than add_num?
+
+    ```{r}
+
+    100 > add_num & 200 > add_num
+    100 < add_num | 200 < add_num
+    ```
+
+5.  Built-in Functions:
+
+    -   **`print()`**: Displays the output on the console.
+
+    -   **`sum()`**: Calculates the sum of values.
+
+    -   **`mean()`**: Calculates the mean of values.
+
+    -   **`length()`**: Returns the length of an object.
+
+    -   **`max()`**: Returns the maximum value in a vector.
+
+    -   **`min()`**: Returns the minimum value in a vector.
+
+    -   **`sqrt()`**: Calculates the square root of a value.
+
+    -   **`round()`**: Rounds a number to the nearest integer.

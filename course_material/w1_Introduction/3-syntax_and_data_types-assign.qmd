@@ -1,0 +1,110 @@
+---
+title: 'Basic R Syntax and Data Types'
+
+execute: 
+  include: false
+---
+
+# Instructions
+
+The purpose of this exercise is to practice and reinforce your understanding of basic R syntax and data types. In this exercise, you will be working with variables, vectors, matrices, and data frames.
+
+# Tasks
+
+1.  Create a variable called "player_name" and assign it the name of your favorite sports player as a character.
+
+    ```{r}
+
+    player_name <- "Muhammad Ali"
+
+    player_name
+    ```
+
+2.  Create a variable called "player_age" and assign it the age of your favorite sports player as a numeric value.
+
+    ```{r}
+
+    player_age <- 81 #If he were alive today
+
+    player_age
+    ```
+
+3.  Create a variable called "is_active" and assign it a logical value of TRUE if your favorite sports player is still playing, and FALSE if they are no longer playing.
+
+    ```{r}
+    is_active <- FALSE
+
+    is_active
+    ```
+
+4.  Create a vector called "goats" with the names of your 5 favorite athletes.
+
+    ```{r}
+    goats <- c('Muhammad Ali', 
+               'Mahmoud Abdul-Rauf', 
+               'Colin Kaepernick',
+               'Jackie Robinson',
+               'Arthur Ashe')
+
+    goats
+    ```
+
+5.  Access the youngest athlete from the goats vector.
+
+    ```{r}
+
+    goats[3]
+    ```
+
+6.  Create a matrix called "player_data" with two columns: "name" and "sport". Fill in the matrix with the name and sports of your favorite athletes.
+
+    ```{r}
+
+    player_data <- data.frame(players = c('Muhammad Ali', 
+                                          'Mahmoud Abdul-Rauf',
+                                          'Colin Kaepernick',
+                                          'Jackie Robinson',
+                                          'Arthur Ashe'),
+                              sports  = c('Boxing', 
+                                          'Basketball',
+                                          'Football',
+                                          'Baseball',
+                                          'Tennis'))
+
+
+    player_data
+
+
+    # You can also create the data.frame by also referencing the goats vector created earlier.
+    player_data2 <- data.frame(players = goats,
+                              sports  = c('Boxing', 
+                                          'Basketball',
+                                          'Football',
+                                          'Baseball',
+                                          'Tennis'))
+
+    player_data2
+    ```
+
+7.  Access the players column of the player_data data frame.
+
+    ```{r}
+
+    # The players column can be accessed by index
+    player_data[1]
+    ```
+
+8.  Retrieve a vector of all of the sports in sports column of the player_data data frame.
+
+    ```{r}
+    player_data$sports
+    ```
+
+9.  Print the class of each variable created in the exercises.
+
+    ```{r}
+    print(class(player_name))
+    print(class(player_age))
+    print(class(is_active))
+    print(class(player_data))
+    ```

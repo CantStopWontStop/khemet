@@ -1,0 +1,65 @@
+# R Syntax and Data Types
+
+Variables and Assignments in R: In R, variables are used to store and manipulate data. To assign a value to a variable, you can use the assignment operator (**`<-`** or **`=`**). For example:
+
+```         
+RCopy code
+```
+
+`# Assigning a value to a variable x <- 10`
+
+Basic Data Types: Numeric, Character, Logical: R supports several fundamental data types:
+
+1.  Numeric: Numeric data type represents numbers. It includes both integers and decimal numbers. For example:
+
+```         
+RCopy code
+```
+
+`# Numeric data age <- 25 height <- 1.75`
+
+2.  Character: Character data type represents text or strings enclosed within quotation marks. For example:
+
+```         
+RCopy code
+```
+
+`# Character data name <- "John Doe" country <- "USA"`
+
+3.  Logical: Logical data type represents Boolean values, either **`TRUE`** or **`FALSE`**. Logical values are often used for conditional statements and logical operations. For example:
+
+```         
+RCopy code
+```
+
+`# Logical data is_student <- TRUE has_degree <- FALSE`
+
+Creating and Manipulating Vectors, Matrices, and Data Frames: R provides various data structures to handle collections of data:
+
+1.  Vectors: Vectors are one-dimensional arrays that can hold elements of the same data type. You can create vectors using the **`c()`** function. For example:
+
+```         
+RCopy code
+```
+
+`# Creating a numeric vector numbers <- c(1, 2, 3, 4, 5)  # Creating a character vector fruits <- c("apple", "banana", "orange")  # Accessing elements of a vector first_element <- numbers[1] second_element <- fruits[2]`
+
+2.  Matrices: Matrices are two-dimensional arrays with rows and columns. You can create matrices using the **`matrix()`** function. For example:
+
+```         
+RCopy code
+```
+
+`# Creating a matrix my_matrix <- matrix(c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3)  # Accessing elements of a matrix element_1_2 <- my_matrix[1, 2] element_2_3 <- my_matrix[2, 3]`
+
+3.  Data Frames: Data frames are tabular structures that can store different data types. They are similar to spreadsheets or database tables. You can create data frames using the **`data.frame()`** function. For example:
+
+```         
+RCopy code
+```
+
+`# Creating a data frame my_df <- data.frame(   name = c("John", "Jane", "Mike"),   age = c(25, 30, 35),   is_student = c(TRUE, FALSE, TRUE) )  # Accessing columns of a data frame names <- my_df$name ages <- my_df$age`
+
+These data structures allow you to efficiently store and manipulate data in R. Understanding how to create and work with vectors, matrices, and data frames is essential for data analysis and visualization tasks.
+
+Note: Practice working with different data types and structures using sample data. Experiment with indexing, slicing, and manipulating elements to solidify your understanding of R syntax and data types.

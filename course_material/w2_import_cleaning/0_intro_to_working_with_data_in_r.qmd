@@ -1,0 +1,19 @@
+# Lesson Plan: Data Cleaning and Preparation
+
+Duration: 6 hours
+
+Objective: By the end of this lesson, students will understand the importance of data cleaning and preparation in the data analysis process. They will learn techniques for importing data into R, cleaning and preparing the data for analysis, performing data transformation and manipulation, and working with different types of data.
+
+Introduction to Data Cleaning and Preparation (1 hour)
+
+Understanding the importance of data cleaning and preparation in data analysis Identifying common data quality issues Overview of the data cleaning and preparation workflow Importing Data into R (1.5 hours)
+
+Introduction to different data formats (e.g., CSV, Excel, databases) Importing data from CSV files using read.csv() function Importing data from Excel files using read_excel() function from the readxl package Importing data from databases using appropriate R packages (e.g., DBI, RSQLite) Demonstrating the process with examples and hands-on exercises Data Cleaning and Preparation (2 hours)
+
+Handling missing data: Identifying missing values Techniques for handling missing data: imputation and deletion Addressing outliers: Identifying outliers using descriptive statistics and visualization Techniques for addressing outliers: removal, transformation, winsorization Correcting data types and formatting: Identifying and converting incorrect data types Handling date and time data formatting issues Demonstrating the process with examples and hands-on exercises Data Transformation and Manipulation (1.5 hours)
+
+Introduction to the dplyr package for data manipulation Common data transformation tasks: Filtering rows using filter() Selecting columns using select() Creating new variables using mutate() Sorting data using arrange() Grouping data using group_by() Summarizing data using summarize() Demonstrating the process with examples and hands-on exercises Working with Different Types of Data (30 minutes)
+
+Overview of different data types (numeric, character, date/time, factors) Techniques for working with each data type: Numeric data: performing mathematical operations, summarizing statistics Character data: string manipulation using the stringr package Date and time data: working with dates and times using the lubridate package Factors: creating and manipulating factor variables Demonstrating the process with examples and hands-on exercises Review and Conclusion (30 minutes)
+
+Recap of key concepts and techniques learned throughout the lesson Discuss the importance of data cleaning and preparation in data analysis Provide additional resources for further exploration and practice Note: The lesson plan duration may vary based on the learning pace of the students and the level of hands-on practice incorporated into the session. It is recommended to allocate sufficient time for hands-on exercises to reinforce the concepts learned.

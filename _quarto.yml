@@ -1,0 +1,67 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Khemet University"
+  subtitle: "One-Stop-Shop on Everything About the Great African Civilation"
+  author: "Afromation Digital"
+  chapters:
+    - index.qmd
+    - part: Timeline
+      chapters:
+        - 'chapters/timeline/pre_dynastic.qmd'
+        - 'chapters/timeline/old_kingdom.qmd'
+        - 'chapters/timeline/first_int.qmd'
+        - 'chapters/timeline/middle_kingdom.qmd'
+        - 'chapters/timeline/second_int.qmd'
+        - 'chapters/timeline/new_kingdom.qmd'
+        - 'chapters/timeline/third_int.qmd'
+        - 'chapters/timeline/exodus.qmd'
+    # - part: Key Dynasties and Pharoahs
+    #   chapters:
+    #     - 'chapters/dynaties/exodus.qmd'
+    #     1st dynasty
+    #     3
+    #     4
+    #     6
+    #     11
+    #     12
+    #     13
+    #     18
+    #     19
+    #     20
+    #     25
+       
+    - part: Culture
+      # chapters:
+    - part: Achievements
+      # chapters:
+      #   - 'course_material/w4_visualization/0-intro.qmd'
+      #   - 'course_material/w4_visualization/1-intro_to_data_viz.qmd'
+      #   - 'course_material/w4_visualization/2-principles_of_data_viz.qmd'
+      #   - 'course_material/w4_visualization/3-intro_to_ggplot.qmd'
+    - part: Influence on the Ancient World
+      # chapters:
+        # - 'course_material/w4_visualization/0-intro.qmd'
+        # - 'course_material/w4_visualization/1-intro_to_data_viz.qmd'
+        # - 'course_material/w4_visualization/2-principles_of_data_viz.qmd'
+        # - 'course_material/w4_visualization/3-intro_to_ggplot.qmd'
+    - part: Stolen Legacy
+      # chapters:
+      #   - 'course_material/w4_visualization/0-intro.qmd'
+      #   - 'course_material/w4_visualization/1-intro_to_data_viz.qmd'
+      #   - 'course_material/w4_visualization/2-principles_of_data_viz.qmd'
+      #   - 'course_material/w4_visualization/3-intro_to_ggplot.qmd'
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: flatly
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
