@@ -1,9 +1,3 @@
 # Introduction {.unnumbered}
 
 ------------------------------------------------------------------------
-
-Description of course
-
-## What You'll Learn
-
-## What You'll Need
